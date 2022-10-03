@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Order a Melongram!</title>
+    </head>
+    <body>
+        <div class="page-text">
+            <h1>Order a Melongram</h1>
+            
+            <p>There's no better way to show a loved one you care than with a Melongram.</p>
+
+            <p>Each Melongram comes with a custom message printed on high-quality cardstock
+            and your choice of a hand-picked, premium melon.</p>
+        </div>
+        
+        <div class="melon-options">
+            <h2>Melon Options</h2>
+            
+            <p>Choose from one of these melons:</p>
+        
+            <table>
+                <tr>
+                    <td>Watermelon</td>
+                    <td>$1,200.00</td>
+                </tr>
+                <tr>
+                    <td>Cantaloupe</td>
+                    <td>$400.00</td>
+                </tr>
+                <tr>
+                    <td>Honeydew</td>
+                    <td>$1,750.00</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="order-form">
+
+            <h2>Order Form</h2>
+            <form>
+                <div>
+                    <label for="name">Your name</label>
+                    <input name="name">
+                </div>
+
+                <div>
+                    <label for="recipient">Who are we sending this to?</label>
+                    <input name="recipient">
+                </div>
+
+                <div>
+                    <label for="melon">Choose a melon</label>
+                    <select name="melon">
+                        <option value="watermelon">Watermelon</option>
+                        <option value="cantaloupe">Cantaloupe</option>
+                        <option value="honeydew">Honeydew</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="time">When should we deliver?</label>
+                    <input type="radio" name="time" value="am"> 
+                    <label for="am">Morning</label>
+                    <input type="radio" name="time" value="pm"> 
+                    <label for="pm">Evening</label>
+                    <input type="radio" name="time" value="any"> 
+                    <label for="any">Any time</label>
+                </div>
+
+                <div>
+                    <label for="message">Enter your message:</label>
+                    <input type="textarea" name="message">
+                </div>
+
+                <div>
+                    <label for="subscribe">Subscribe to our newsletter?</label>
+                    <input type="checkbox" name="subscribe" value="yes"> 
+                    <label for="yes">Yes</label>
+                </div>
+
+                <div>
+                    <input type="Submit">
+                </div>      
+                
+            </form>
+        </div>
+    </body>
+</html>
